@@ -1,0 +1,89 @@
+/* general styles */
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gradient {
+    background: rgb(46,38,223);
+    background: linear-gradient(
+    90deg, 
+    rgba(46,38,223,1) 0%, 
+    rgba(102,0,175,1) 100%);
+}
+
+/* header */
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.page-header h1 {
+    font-weight: bold;
+}
+
+/* features */
+.feature {
+    color: #fff;
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left:2rem;
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1em;
+}
+
+/* icons */
+.icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* gallery */
+.gallery {
+    background-color: #F5F5F5;
+}
+
+.gallery img {
+    border-radius: 5%;
+    transition: transform 0.5s;
+}
+
+.gallery img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+/* services */
+.services {
+    color:#fff;
+}
+
+/* footer */
+footer {
+    color:#fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+footer a:hover, a:visited, a:link, a:active {
+    color: #fda1ff;
+    text-decoration: none;
+}
