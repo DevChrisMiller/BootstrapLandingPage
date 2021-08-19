@@ -1,2 +1,2 @@
 # BootstrapLandingPage
-A landing page made for an example business named MDB made using Bootstrap v5.1.0. This serves as a template and to show design possibilities.
+This is a fully responsive landing page design/template that I made for a dummy company named MDB using Bootstrap v5.1.0. I wanted to showcase different design elements possible with bootstrap while making a great looking site. It is amazing what you can achieve with Bootstrap and some custom css elements. I also incorporated free tools from the web to help me get this design such as cssgradient.io, getwaves.io and manypixels.co.
